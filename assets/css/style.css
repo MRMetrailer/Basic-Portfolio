@@ -1,0 +1,73 @@
+body {
+    background-image: url("../images/crossline-lines.png");
+    margin: 0;
+  }
+
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 10px solid #cccccc;
+}
+h1 {
+    padding: 10px;
+    margin: 0;
+    font-size: 24pt;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    float: left;
+    padding: 10px;
+}
+
+
+h2 {
+    color: #4aaaa5;
+    text-align: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+ul {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 8px solid;
+    border-top-color: #4aaaa5;
+    text-align: center;
+    background-color: #666666;
+}
+
+footer > P {
+    color: white;
+}
+
+#content {
+    background-color: white; 
+}
+
+.fixed-width {
+    width: 960px;
+    margin: 0 auto;
+}
+.clearfix {
+    clear: both;
+}
