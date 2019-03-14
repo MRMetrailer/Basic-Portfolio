@@ -2,44 +2,48 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Contact</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-<header>
-    <div class="fixed-width">
-        <h1>Matthew Metrailer</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">About</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a disabled="true">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<section id="content" class="fixed-width">
-    <h2>Contact</h2>
-    <form>
-        Name<br>
-        <input type="text" name="name"><br>
-        Email<br>
-        <input type="text" name="email"><br>
-        Message<br>
-        <input type="text" name="message"><br><br>
-        <input type="submit" name="Submit">
-    </form>
-</section>
-<footer>
-    <p>Copyright &copy; 2019 Matthew Metrailer</p>
-</footer>
+    <header>
+        <div class="fixed-width">
+            <h1>Matthew Metrailer</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="content" class="fixed-width">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Your Name">
+            
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="You@example.com">
+
+            <label for="message">Message</label>
+            <textarea name="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2019 Matthew Metrailer</p>
+    </footer>
 </body>
+
 </html>
