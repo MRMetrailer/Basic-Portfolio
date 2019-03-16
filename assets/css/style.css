@@ -9,12 +9,12 @@ header {
     width: 100%;
     background-color: white;
     border-bottom: 2px solid #cccccc;
-    height: 60px;
+    height: 79px;
 }
 h1 {
-    padding: 14px 10px 10px 10px;
+    padding: 23px;
     margin: 0;
-    font-size: 24pt;
+    font-size: 22pt;
     color: white;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -22,7 +22,7 @@ h1 {
 }
 nav {
     float: right;
-    margin-top: 14px;
+    margin-top: 33px;
 }
 nav ul {
     list-style: none;
@@ -53,10 +53,17 @@ nav ul li a[disabled] {
 }
 h2 {
     color: #4aaaa5;
+    font-size: 26px;
     text-align: left;
-    border-bottom: 4px solid #dddddd;
-    padding-bottom: 20px;   
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 26px;
+    margin-bottom: 30px;
+    margin-top: 12px;   
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    line-height: 30px;
 }
 
 input, label, textarea {
@@ -91,24 +98,49 @@ footer {
 
 footer > P {
     color: white;
+    font-size: 10px;
 }
 
 #content {
     background-color: white;
     padding: 20px;
     width: 920px;
-    margin: 10px auto 70px auto; 
+    margin: 35px auto 90px auto;
+    border: 1px solid #cccccc;
 }
 
 .fixed-width {
     width: 960px;
     margin: 0 auto;
 }
-.clearfix {
-    clear: both;
-}
 
 .main-photo {
     float: left;
     padding: 0 10px 10px 0;
+}
+
+.portfoliobox {
+    overflow: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.portfoliobox img {
+    display: inline-block;
+    margin: 30px 25px;
+    height: 200px;
+    width: 300px;
+}
+
+.portfoliobox a {
+    color: white;
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 300px;
+    margin: 0 25px;
+    left: 0;
+    top: 65%;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0;
 }
