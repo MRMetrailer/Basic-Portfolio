@@ -144,3 +144,77 @@ footer > P {
     text-decoration: none;
     padding: 15px 0;
 }
+
+.small-clear {
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .fixed-width {
+        max-width: 740px;
+    }
+
+    #content {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fixed-width {
+        max-width: 600px;
+    }
+
+    #content {
+        max-width: 560px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .fixed-width {
+        width: 100%;
+        text-align: center;
+    }
+    .fixed-width label {
+        text-align: left;
+    }
+    header {
+        height: auto;
+    }
+    #content {
+        max-width: 440px;
+    }
+
+    h1 {
+        position: static;
+        width: 100%;
+        float: none;
+    }
+    nav {
+        float: none;
+        margin: 0;
+    }
+    nav ul {
+
+        padding: 10px 0;
+    }
+    nav ul li {
+        width: 100px;
+        float: none;
+        display: inline;
+    }
+    nav ul li a {
+        border-left: none;
+
+    }
+    .small-clear {
+        clear: both;
+    }
+    #content {
+        margin-top: 15px; 
+    }
+
+    .main-photo {
+        width: 100%;
+        float: none;
+    }
+}
